@@ -1,0 +1,40 @@
+.inicio-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('https://static.nuso.org/media/cache/27/58/27585a823ecc88ba254085f42b5e5801.jpg');
+    background-size: cover;
+    background-position: center;
+
+    text-align: center;
+    width:1366px;
+ 
+  }
+  .inicio-title {
+    color: #f3e073;
+    font-size: 5rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    z-index: 1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  }
+  .inicio-btn {
+    background-color: #3085D6; 
+    border: none;
+    color: white;
+    padding: 0.5rem 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    margin: 0.5rem 0;
+    cursor: pointer;
+    border-radius: 0.25rem;
+    transition: background-color 0.3s ease;
+  }
+  .inicio-btn:hover {
+    background-color: #2077D3; 
+
+  }

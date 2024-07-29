@@ -1,0 +1,78 @@
+.tabla-container {
+  margin: 0;
+  width: 100%;
+
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+
+
+
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 5px;
+
+}
+
+td {
+  font-size: 1.2rem;
+  background-color: #e4bc68;
+  padding: 2px;
+}
+
+th {
+  background-color: #1a1919;
+  text-align: left;
+  font-size: 2rem;
+  font-family: calibri;
+  color: #ddd;
+
+}
+
+tr:nth-child(even) {
+  background-color: #F9F9F9;
+}
+
+img {
+  border-radius: 10px;
+  width: 15rem;
+}
+
+button {
+  display: flex;
+  gap: 2px;
+  background: #e4bc68;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  color: rgb(49, 44, 44);
+  width: 7rem;
+
+
+  transition: transform 0.3s ease;
+}
+
+button:hover {
+  background-color: #ddd;
+}
+
+.bio {
+  width: 30rem;
+  font-size: 2rem;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  width: 20rem;
+  gap: 3px;
+  margin: 30px;
+
+}
