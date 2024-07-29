@@ -156,7 +156,7 @@ const DataList = () => {
             cancelButtonText: 'Cancelar',
         }).then((result) => {
             if (result.isConfirmed) {
-                navigate('/'); // Ajusta esta ruta según tu configuración de rutas
+                navigate('/');
                 Swal.fire({
                     icon: 'success',
                     title: 'Sesión cerrada',

@@ -3,7 +3,6 @@ import Inicio from './components/inicio';
 import Login from './components/login';
 import DataList from './components/dataList';
 import { UserProvider } from "./components/userContext";
-import PrivateRoute from './auth/privateRoute';
 import './styles/inicio.css';
 import './styles/dataList.css';
 import './styles/barraSuperior.css';
@@ -17,7 +16,7 @@ function App() {
           <Route path="/" element={<Inicio />} />
           <Route path="/login" element={<Login />} />
           <Route path="/dataList" element={<DataList />} />
-          
+
         </Routes>
       </Router>
     </UserProvider>

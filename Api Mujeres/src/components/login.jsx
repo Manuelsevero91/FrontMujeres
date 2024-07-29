@@ -12,9 +12,9 @@ const login = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // usuario simulado
-    const simulatedUsername = 'admin';
-    const simulatedPassword = 'admin123';
+    
+    const simulatedUsername = 'mujeres';
+    const simulatedPassword = 'mujer123';
 
     if (nombre === simulatedUsername && password === simulatedPassword) {
       handleLogin(nombre);
